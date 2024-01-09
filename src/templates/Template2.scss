@@ -1,0 +1,67 @@
+.default-theme .card-body{
+    padding: 0%;
+}
+
+
+
+
+.main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  // box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset,
+  // 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+.left {
+  background-color: rgb(190, 161, 197);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: 400;
+  text-shadow: 0.1px 1px 1px #000000;
+}
+
+.content {
+  display: flex;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5 {
+  display: grid;
+  box-shadow: 5px 5px 10px 0 #888888;
+  margin: 0 0 20px;
+  margin-left: 10px;
+  padding-top: 20px;
+  
+}
+
+.bottom1 {
+  background-color: orange;
+  min-height: 5px;
+
+}
+
+.bottom2 {
+  background-color: rgb(0, 183, 255);
+  min-height: 5px;
+
+}
+
+.bottom3 {
+    min-height: 5px;
+  background-color: black;
+}
+
+.bottom4 {
+  background-color: red;
+  min-height: 5px;
+
+}
+.bottom5 {
+  background-color: rgb(54, 212, 54);
+  min-height: 5px;
+
+}
